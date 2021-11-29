@@ -13,7 +13,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-public class Model extends JPanel implements ActionListener {
+public class Moteur extends JPanel implements ActionListener {
 
 	private Dimension d;
     private final Font smallFont = new Font("Arial", Font.BOLD, 14);
@@ -62,7 +62,7 @@ public class Model extends JPanel implements ActionListener {
     private short[] screenData;
     private Timer timer;
 
-    public Model() {
+    public Moteur() {
 
         loadImages();
         initVariables();

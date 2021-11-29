@@ -2,15 +2,15 @@ package pacman;
 
 import javax.swing.JFrame;
 
-public class Pacman extends JFrame{
+public class Main extends JFrame{
 
-	public Pacman() {
-		add(new Model());
+	public Main() {
+		add(new Moteur());
 	}
 	
 	
 	public static void main(String[] args) {
-		Pacman pac = new Pacman();
+		Main pac = new Main();
 		pac.setVisible(true);
 		pac.setTitle("Pacman");
 		pac.setSize(380,420);
